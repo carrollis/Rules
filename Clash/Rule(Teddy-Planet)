@@ -1,30 +1,80 @@
+- RULE-SET,LocalAreaNetwork,🎯 全球直连
+- RULE-SET,UnBan,🎯 全球直连
+- RULE-SET,BanAD,🛑 广告拦截
+- RULE-SET,BanProgramAD,🍃 应用净化
+- RULE-SET,GoogleFCM,📢 谷歌FCM
+- RULE-SET,GoogleCN,📢 谷歌FCM
+- RULE-SET,OneDrive,Ⓜ️ 微软云盘
+- RULE-SET,Microsoft,Ⓜ️ 微软服务
+- RULE-SET,Apple,🍎 苹果服务
+- RULE-SET,Telegram,📲 电报消息
+- RULE-SET,Netflix,🎥 奈飞视频
+- RULE-SET,Amazon,🎥 亚马逊Prime
+- RULE-SET,AbemaTV,🎥 Abema TV
+- RULE-SET,AppleTV,🍎 苹果Apple TV
+- RULE-SET,BBCiPlayer,🎥 BBC iPlayer
+
+
+=🎥 BBC iPlayer,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BBCiPlayer.list
+
+ruleset=🎥 迪士尼+,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/DisneyPlus.list
+ruleset=🌍 Tiktok,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list
+ruleset=🌍 Hulu,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Hulu.list
+ruleset=🌍 Hulu(日本版),https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/HuluJapan.list
+ruleset=📺 DAZN体育,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/DAZN.list
+ruleset=📺 Discovery探索,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/DiscoveryPlus.list
+ruleset=📺 HBO,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/HBO.list
+ruleset=📺 HBO GO,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/HBO_GO_HKG.list
+ruleset=📺 巴哈姆特,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list
+ruleset=📺 哔哩哔哩,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list
+ruleset=📺 哔哩哔哩,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list
+ruleset=🌏 国内媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
+ruleset=🌍 国外媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+ruleset=🚀 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+;ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+;ruleset=🎯 全球直连,[]GEOIP,LAN
+ruleset=🎯 全球直连,[]GEOIP,CN
+ruleset=🐟 漏网之鱼,[]FINAL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+YouTube
+
+
 - RULE-SET,Reject,🛑 广告拦截
 - RULE-SET,Special,DIRECT
 
 - RULE-SET,Netflix,🎥 奈飞视频
 - RULE-SET,Spotify,🚀 节点选择
-
 # - RULE-SET,YouTube Music,YouTube
 - RULE-SET,YouTube,📹 油管视频
-
 - RULE-SET,Disney Plus,🎥 迪士尼+
-
 - RULE-SET,Bilibili,📺 哔哩哔哩
 - RULE-SET,IQ,Asian TV
-- RULE-SET,IQIYI,Asian TV
-- RULE-SET,Letv,Asian TV
 # - RULE-SET,MOO,Asian TV
-- RULE-SET,Netease Music,Asian TV
-- RULE-SET,Tencent Video,Asian TV
-- RULE-SET,Youku,Asian TV
+- RULE-SET,Netease Music,🎶 网易音乐
 - RULE-SET,WeTV,Asian TV
-
 - RULE-SET,ABC,Global TV
 - RULE-SET,Abema TV,🎥 Abema TV
 - RULE-SET,Amazon,🎥 亚马逊Prime
 - RULE-SET,Apple News,Global TV
 - RULE-SET,Apple TV,🍎 苹果Apple TV
-- RULE-SET,Bahamut,Global TV
+- RULE-SET,Bahamut,📺 巴哈姆特
 - RULE-SET,BBC iPlayer,🎥 BBC iPlayer
 - RULE-SET,DAZN,Global TV
 - RULE-SET,Discovery Plus,Global TV
@@ -84,7 +134,7 @@ script:
             "IQ": "Asian TV",
             "IQIYI": "Asian TV",
             "Letv": "Asian TV",
-            "Netease Music": "Asian TV",
+            "Netease Music": "🎶 网易音乐",
             "Tencent Video": "Asian TV",
             "Youku": "Asian TV",
             "WeTV": "Asian TV",
